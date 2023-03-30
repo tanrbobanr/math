@@ -5,7 +5,7 @@
 > - **Power of a Power**: $(a^m)^n = a^{mn}$
 > - **Power of a Product**: $(ab)^n = a^nb^n$
 > - **Quotient Rule**: $\frac{a^m}{a^n} = a^{m-n}$
-> - **Power of a Quotient**: $(\frac{a}{b})^n = \frac{a^n}{b^n}$
+> - **Power of a Quotient**: $\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}$
 > - **Negative Power**: $a^{-n} = \frac{1}{a^n}, a \ne 0$
 > - **Zero Exponent Rule**: $a^0 = 1, a \ne 0$
 
@@ -20,9 +20,9 @@
 `Algebraic Expressions and Polynomials`
 > - **Variable**: A letter that can represent any number from a given set of numbers.
 > - **Algebraic Expression**: A conglomerate of variables and real numbers.
-> - **Polynomial**: An algrebraic expression in the form $a_nx^n + a_{n-1}x^{n-1} + ... + a_1x_1 + a_0$, where $a_0, a_1, ..., a_n$ are real numbers, and$n$is a non-negative integer.
-> - **Monomial**: A polynomial with a single term$a_kx^k$.
-> - **Term / Monomial**: Each monomial$a_kx^k$in a polynomial is a term.
+> - **Polynomial**: An algrebraic expression in the form $a_nx^n + a_{n-1}x^{n-1} + ... + a_1x_1 + a_0$, where $a_0, a_1, ..., a_n$ are real numbers, and $n$ is a non-negative integer.
+> - **Monomial**: A polynomial with a single term $a_kx^k$.
+> - **Term / Monomial**: Each monomial $a_kx^k$ in a polynomial is a term.
 > - **Degree**: Highest power of the polynomial.
 > - **Binomial**: A polynomial with 2 terms.
 > - **Trinomial**: A polynomial with 3 terms.
@@ -114,10 +114,10 @@
 > - $f(x)$ is a one-to-one function.
 
 `Graphing the Parent Function`
-> To graph the parent function, plot the points $(-1, \frac{1}{a})$, $(0, 1)$, and $(1, a)$.
+> To graph the parent function, plot the points $\left(-1, \frac{1}{a}\right)$, $(0, 1)$, and $(1, a)$.
 
 `Intermittent Compound Interest Function`
-> $A(t) = P(1+ \frac{r}{n})^{nt}$ where $A(t)$ is the ending value, $P$ is the principle, $r$ is the annual rate, $n$ is the interest period, and $t$ is the time in years.
+> $A(t) = P\left(1+ \frac{r}{n}\right)^{nt}$ where $A(t)$ is the ending value, $P$ is the principle, $r$ is the annual rate, $n$ is the interest period, and $t$ is the time in years.
 
 # 4.2 The Natural Exponential Function
 
@@ -150,7 +150,7 @@
 > - $f(x)$ is a one-to-one function.
 
 `Graphing the Parent Function`
-> To graph the parent function, plot the points $(\frac{1}{a}, -1)$, $(1, 0)$, and $(a, 1)$.
+> To graph the parent function, plot the points $\left(\frac{1}{a}, -1\right)$, $(1, 0)$, and $(a, 1)$.
 
 `Exponential Form to Logarithmic Form`
 > The equation $a^n = b$ can be rewritten as $log_a(b) = n$. That is, $log_a(b)$ is the exponent of $a$ that produces $b$.
@@ -159,13 +159,13 @@
 
 `Properties of Logarithms`
 > - **Product Rule**: $log_a(xy)=log_a(x)+log_a(y)$
-> - **Quotient Rule**: $log_a(\frac{x}{y})=log_a(x)-log_a(y)$
+> - **Quotient Rule**: $log_a\left(\frac{x}{y}\right)=log_a(x)-log_a(y)$
 > - **Power Rule**: $log_a(x^n)=n \cdot log_a(x)$
 > - **Change of Base**: $log_a(x) = \frac{log_n(x)}{log_n(a)}$
 > - **Other Properties**:
 >     - $log_a(a^x) = x$
->     - $log_a(\frac{1}{a^n}) = -n$
->     - $log_a(\frac{1}{a}) = -1$
+>     - $log_a\left(\frac{1}{a^n}\right) = -n$
+>     - $log_a\left(\frac{1}{a}\right) = -1$
 >     - $log_a(1) = 0$
 >     - $log_a(a) = 1$
 >     - $a^{log_a(x)} = x$
@@ -181,3 +181,25 @@
 >    3. Solve the quadratic: $((e^x) - 7)((e^x) + 2) = 0$, thus $(e^x) = \{-2, 7\}$
 >    4. Solve for $x$: $x = \{log_e(-2), log_e(7)\}$
 >    5. Filter out complex or undefined answers (in this case, $log_e(-2)$).
+
+# 4.6 Modeling with Exponential Functions
+
+`Exponential Growth (doubling time)`
+> $n(t)=n_02^{t/a}$ where $n(t)$ is the ending population, $n_0$ is the initial population, $t$ is the time (in periods), and $a$ is the doubling time (time in periods it takes for the population to double).
+
+`Exponential Growth (relative growth rate)`
+> $n(t)=n_0e^{rt}$ where $n(t)$ is the ending population, $n_0$ is the initial population, $t$ is the time (in periods), and $r$ is the relative growth rate.
+
+`Radioactive Decay Model`
+> $m(t)=m_0e^{-rt}$ where $m(t)$ is the ending mass, $m_0$ is the initial mass, $t$ is the time (in periods), and $r$ is the decay rate. $r$ is $ln(2) / h$ where $h$ is the half-life (in periods) of the substance.
+
+# 4.7 Logarithmic Scales
+
+`pH Scale`
+> $pH=-log[H^+]$, where $H^+$ is the concentration of hydrogen ions measured in moles ($mol$) per liter ($L$). A $pH$ of $7$ is neutral, a $pH \lt 7$ is acidic, and a $pH \gt 7$ is basic.
+
+`Richter Scale`
+> $M=log(\frac{I}{S})$ where $M$ is the magnitute of the earthquake, $I$ is the intensity of the earthquake (measured by the amplitute of a seismograph reading taken 100km from the epicenter of the earthquake), and $S$ is $1 \mu$ or $10^{-4} cm$ (the "standard" amplitude of an earthquake).
+
+`Decibel Scale`
+> $B = 10log\left(\frac{I}{I_0}\right)$ where $B$ is the deicbel level ($dB$), $I$ is the intensity, and $I_0$ is $10^{-12} \frac{W}{m^2}$ (watts per square meter) at a frequency of $1000 Hz$ (hertz).
