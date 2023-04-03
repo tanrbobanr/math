@@ -36,6 +36,139 @@
 > - **Cube of a Sum**: $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$
 > - **Cube of a Difference**: $(a + b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$
 
+# 1.4 Rational Expressions
+
+`Vocabulary`
+> - **Fractional Expression**: The quotient of two algebraic expressions.
+> - **Rational Expression**: A fractional expression whose numerator and denominator are polynomials.
+> - **Domain**: The set of all real numbers that a given variable is allowed to have.
+
+# 1.5 Equations
+
+`Solving Quadratics`
+> - **Quadratic Form**: $ax^2+bx+c$
+> - **Factoring a Quadratic**:
+>     - When $a=1$, find two numbers that, when multiplied, match $c$, and whose sum matches $b$. For example:
+>         1. $x^2+9x-10=0$
+>         1. $-1 \cdot 10 = -10 = c; -1 + 10 = 9 = b$
+>         1. $(x-1)(x+10)=0$
+>     - If $a \ne 1$, find two numbers that, when multiplied, match $a \cdot c$, and whose sum matches $b$. For example:
+>         1. $4x^2+8x-5=0$
+>         1. $-2 \cdot 10 = -20 = a \cdot c; -2 + 10 = 8 = b$
+>         1. $(4x^2-2x) + (10x-5) = 0$
+>         1. $2x(2x-1) + 5(2x-1) = 0$
+>         1. $(2x-1)(2x+5)=0$
+>     - You can also use the Quadratic Formula, which is $x=\frac{-b \pm \sqrt[2]{b^2-4ac}}{2a}$
+>     - Finally, you can solve by **completing the square**. To do so, move the constant to the right side, then add $\left(\frac{b}{2}\right)^2$ to both sides and solve like normal. You can also use this formula for simplicity: $a\left(x + \frac{b}{2a}\right)^2 = -c + \frac{b^2}{4a}$ which was derived as follows:
+>   > 1. $ax^2 + bx + c = 0$
+>   > 1. $ax^2 + bx = 0 - c$
+>   > 1. $a\left(x^2 + \frac{b}{a}x\right) = -c$
+>   > 1. $a\left(x^2 + \frac{b}{a}x\right) + \left(\frac{b}{2a}\right)^2 = -c + \left(\frac{b}{2a}\right)^2$
+>   > 1. $a\left(x^2 + \frac{b}{a}x\right) + \left(\frac{b}{2a}\right)^2 = -c + \frac{b^2}{4a^2}$
+>   > 1. $a\left(x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2\right) = -c + \frac{b^2}{4a^2} \cdot a$
+>   > 1. $a\left(x + \frac{b}{2a}\right)^2 = -c + \frac{b^2}{4a}$
+
+# 1.6 Complex numbers
+
+`Review`
+> - $i$ is defined as $\sqrt{-1}$.
+> - $i^2=-1; i^3=-i; i^4 = 1; i^n = i^{n \bmod 4}$
+> - The complex number system is the set of all numbers of the form $a+bi$ where $a$ and $b$ are real numbers.
+> - Addition, subtraction, multiplcation, and division all follow the same rules as a binomial. Just keep in mind the rules of $i^n$.
+
+# 1.8 Inequalities
+
+`Inquality Notation`
+> $x\circ n$ where $\circ$ is $\lt$, $\gt$, $\le$, or $\ge$.
+
+`Set Builder Notation`
+> $\left\{x|...\right\}$ where $...$ is some criteria. For example: $\left\{x|x\lt 10\right\}$, which is pronounced `the set of all numbers x such that x is less than 10`.
+
+`Interval Notation`
+> Interval notation uses brackets ($[]$) and parenthesis ($()$) to indicate a range of numbers. For example, $[3, \infty)$ would be all numbers greater than or equal to $3$. $\infty$ and $-\infty$ must end in parethesis. Intervals can be merged with other intervals or sets, for example: $(-\infty, -10)\cup \{0\}\cup [3, \infty)$ is all numbers less than $-10$, or exactly $0$, or all numbers greater than **or equal to** $3$.
+
+`Nonlinear Inequalities`
+> Nonlinear inequalities can be solved by using the Critical Value method:
+> 1. Find the critical values of the inequality; that is, all real solutions of the inequality when the inequality sign is replaced with an equals, then solved, as well as any values in which the inequality is undefined.
+> 1. Test all critical values, as well as a point in each interval. Once you know which values passed, you can build an interval solution to the inequality.
+
+`Absolute Value Inequalities`
+> Absolute value inequalities can be solved by following the below steps:
+> 1. Isolate the absolute value.
+> 1. If in the form $|u|\gt a$, then the solution is the union of the solutions to $u\lt -a$ and $u\gt a$.
+> 1. If in the form $|u|\ge a$, then the solution is the union of the solutions to $u\le -a$ and $u\ge a$.
+> 1. If in the form $|u|\lt a$, then the solution is the solution to $-a\lt u\lt a$.
+> 1. If in the form $|u|\le a$, then the solution is the solution to $-a\le u\le a$.
+
+# 1.9 The Coordinate Plane; Graphs of Equations; Circles
+
+`Distance and Midpoint Formulas`
+> - The distance between two 2-dimentional points $(x_1, y_1)$ and $(x_2, y_2)$ is $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
+> - The midpoint between two 2-dimentional points $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$
+
+`Symmetry`
+> Given an **equation** $P(x)$ (not a function), the symmetry of the graph of $P(x)$ is:
+> - Symmetric about the y-axis if $fP(x) = P(-x)$
+> - Symmetric about the x-axis if $fP(x) = -P(x)$
+> - Symmetric about the origin ($(0,0)$) if $fP(x) = -P(-x)$
+
+`Circles`
+> Vocabulary:
+> - The fixed point in the middle of the circle is called the **center**.
+> - The **circumference** is the outside of the circle, which contains all x-y solution pairs of the equation.
+> - The **radius** is the distance between the center and any point along the circumference.
+> - The **diameter** is the double the radius.
+> - **Standard Form** of the equation of a circle: $(x-h)^2+(y-k)^2=r^2$ where $(h,k)$ is the center of the circle, and $r$ is the radius.
+> - **General Form** of the equation of a circle: $Ax^2+Ay^2+Dx+Ey+F=0$
+> - **General Form to Standard Form**: To transform a circle equation that is in general form into standard form, follow the below steps:
+>   1. Move constant to right side.
+>   1. Ensure that $A=1$.
+>   1. Group up terms with same variables.
+>   1. Factor each group by completing the square.
+
+# 1.10 Lines
+
+`General Formulas`
+> - **Slope of a Line**: $m=\frac{\Delta y}{\Delta x}$
+> - **Point-Slope Form of a Line**: $y-y_1=m(x-x_1)$ where $(x_1, y_1)$ is a point on that line, and $m$ is the slope of that line.
+>    - **Point-Slope Form to Slope-Intercept Form**: $y=mx + (y_1-mx_1)$
+> - **Slope-Intercept Form of a Line**: $y=mx+b$ where $m$ is the slope of that line and $b$ is its y-intercept.
+> - **Standard Form of a Line**: $Ax+By=C$ where $A$, $B$, and $C$ are integers.
+>    - **Point-Slope Form to Partial Standard Form**: $-mx + y=y_1 - mx_1$; multiply by whatever number will make all constants integers.
+
+`Vertical Lines`
+> - **Form**: $x=a$
+> - **Slope**: Undefined.
+
+`Horizontal Lines`
+> - **Form**: $y=b$
+> - **Slope**: $0$.
+
+`Parallel and Perpendicular Lines`
+> - If $l_1\parallel l_2$, then $m_1=m_2$
+> - If $l_1\perp l_2$, then $m_1=-\frac{1}{m_2}$
+
+# 2.1 Functions
+
+A **function** is a rule that assigns to each element $x$ in a set $A$ extactly one element $f(x)$ in a set $B$. When pronouncing a function, for example $f(x)=2x+1$ would be pronounced `f of x equals two x plus 1`. The domain of $f(x)$, also known as the *independent variables*, is written as $D_f$, and is the set of all permissible values for $x$. The range of $f(x)$, also known as the *dependent variables*, is written as $R_f$, and is the set of all possible values of $f(x)$.
+
+`Piecewise Functions`
+> In the example piecewise function below:
+> $$
+> f(x) =
+> \begin{cases}
+>     3x & x \lt 0 \\
+>     x+1 & 0 \le x \le 2 \\
+>     (x-2)^2 & x \gt 2
+> \end{cases}
+> $$
+> We use $3x$ *if and only if* $x$ is less than $0$. If $x$ is between $0$ and $2$, then we use $x+1$. If $x$ is greater than $2$, we use $(x-2)^2$
+
+`Difference Quotient`
+> Defined as $\frac{f(x+h)-f(x)}{h}$ where $h$ is left as a variable.
+
+
+
 # 3.1 Quadratic Functions and Models
 
 `Quadratic Functions`
@@ -134,7 +267,7 @@
 
 # 4.3 Logarithmic Functions
 
-> The inverse of the exponential function $f(x)=a^x$ is $f^-1(x)=log_a(x)$.
+> The inverse of the exponential function $f(x)=a^x$ is $f^{-1}(x)=log_a(x)$.
 
 > $f(x)=log_a(x), a \gt 0, a \ne 1$ is the parent function for logarithms.
 
