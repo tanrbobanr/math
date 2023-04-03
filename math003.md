@@ -154,6 +154,7 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 
 `Piecewise Functions`
 > In the example piecewise function below:
+>
 > $$
 > f(x) =
 > \begin{cases}
@@ -162,6 +163,7 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 >     (x-2)^2 & x \gt 2
 > \end{cases}
 > $$
+>
 > We use $3x$ *if and only if* $x$ is less than $0$. If $x$ is between $0$ and $2$, then we use $x+1$. If $x$ is greater than $2$, we use $(x-2)^2$
 
 `Difference Quotient`
