@@ -82,7 +82,7 @@
 > $x\circ n$ where $\circ$ is $\lt$, $\gt$, $\le$, or $\ge$.
 
 `Set Builder Notation`
-> $\left\{x|...\right\}$ where $...$ is some criteria. For example: $\left\{x|x\lt 10\right\}$, which is pronounced `the set of all numbers x such that x is less than 10`.
+> $\left\\{x|...\right\\}$ where $...$ is some criteria. For example: $\left\\{x|x\lt 10\right\\}$, which is pronounced `the set of all numbers x such that x is less than 10`.
 
 `Interval Notation`
 > Interval notation uses brackets ($[]$) and parenthesis ($()$) to indicate a range of numbers. For example, $[3, \infty)$ would be all numbers greater than or equal to $3$. $\infty$ and $-\infty$ must end in parethesis. Intervals can be merged with other intervals or sets, for example: $(-\infty, -10)\cup \{0\}\cup [3, \infty)$ is all numbers less than $-10$, or exactly $0$, or all numbers greater than **or equal to** $3$.
