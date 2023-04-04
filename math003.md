@@ -173,8 +173,8 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 
 `Parent Functions`
 > Below are some parent functions and their graphs:
-> - **RED**: $f(x)=2$, the constant function.
-> - **BLUE**: $f(x)=c$ (in this case $c=2$), the identity function.
+> - **RED**: $f(x)=c$ (in this case $c=2$), the constant function.
+> - **BLUE**: $f(x)=x$, the identity function.
 > - **GREEN**: $f(x)=x^2$, the squaring function.
 > - **ORANGE**: $f(x)=\sqrt{x}$, the square root function.
 > - **PURPLE**: $f(x)=x^3$, the cubing function.
