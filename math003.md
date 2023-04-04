@@ -169,7 +169,74 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 `Difference Quotient`
 > Defined as $\frac{f(x+h)-f(x)}{h}$ where $h$ is left as a variable.
 
+# 2.2 Graphs of Functions
 
+`Parent Functions`
+> Below are some parent functions and their graphs:
+> - **RED**: $f(x)=2$, the constant function.
+> - **BLUE**: $f(x)=c$ (in this case $c=2$), the identity function.
+> - **GREEN**: $f(x)=x^2$, the squaring function.
+> - **ORANGE**: $f(x)=\sqrt{x}$, the square root function.
+> - **PURPLE**: $f(x)=x^3$, the cubing function.
+> - **BLACK**: $f(x)=|x|$, the absolute value function.
+> ![Graphs of the above functions](MATH003_2_2_0.PNG)
+
+`Vertical Line Test`
+> In order to ensure a given graph represents a function, you can perform the **vertical line test**. If a vertical line placed at any point on the coordinate plane intercepts the graph in two locations, **it is not a function**.
+
+# 2.3 Getting Information from the Graph of a Function
+
+`Increasing and Decreasing Functions`
+> A function is **increasing** at all x-values where the corresponding y-values are increasing (from left to right). Similarly, a function is **decreasing** at all x-values where the corresponding y-values are decreasing. A function is **constant** at all x-values where the corresponding y-values remain the same. Points of transition **are not included**. For example, in the function displayed below, the function is *increasing* in the interval $(-\infty, -2)\cup (0, 3)$, *decreasing* in the interval $(-2, 0)$, and is *constant* in the interval $(3, \infty)$.
+> ![Graph of a function that has sections of increasing, decreasing, and constant behavior](MATH003_2_3_0.PNG)
+
+# 2.4 Average Rate of Change of a Function
+
+`Average Rate of Change Formula`
+> The **average rate of change** of a function $f(x)$ between $x=a$ and $x=b$ is defined as $\frac{\Delta y}{\Delta x}$, or $\frac{f(b)-f(a)}{b-a}$.
+
+# 2.5 Linear Functions and Models
+> Any function in the form $f(x)=mx+b$ is called a **linear function**.
+
+`Properties of the Slope of a Linear Function`
+> 1. If $m\gt 0$, the line is **increasing**.
+> 1. If $m\lt 0$, the line is **decreasing**.
+> 1. If $m=0$, the line is **horizontal/constant**.
+> 1. If $m$ is undefined, the line is **vertical**.
+
+`Linear Models`
+> When a linear function is used to model the relationship between two quantities, the **slope** of the graph of the function is the **rate of change** of one quantity in relation to another.
+
+# 2.6 Transformations of Functions
+
+> Any transformation made to the *outside* of the function (e.g. $f(x)+2) will modify the *outside* of the parent function, e.g. $x^2+2$. Any transformation made to the *inside* of the function (e.g. $f(2x)$) will modify the *inside* of the parent function, e.g. $(2x)^2$.
+
+`Vertical Shifts`
+> - $f(x)+n_0$: the graph is shifted *upwards* by $n_0$ units.
+> - $f(x)-n_0$: the graph is shifted *downwards* by $n_0$ units.
+
+`Horizontal Shifts`
+> - $f(x+n_0)$: the graph is shifted *left* by $n_0$ units.
+> - $f(x-n_0)$: the graph is shifted *right* by $n_0$ units.
+
+`Reflecting`
+> -$-f(x)$: the graph is reflected *about the x-axis*.
+> -$f(-x)$: the graph is reflected *about the y-axis*.
+
+`Vertical Compressions and Stretches`
+> $n_0f(x),n_0\gt 1$: the graph will be stretched vertically (causing it to visually narrow).
+> $n_0f(x),0\lt n_0\lt 1$: the graph will be compressed vertically (causing it to visually widen).
+
+`Horizontal Compressions and Stretches`
+> $f(n_0x),n_0\gt 1$: the graph will be compressed horizontally (causing it to visually narrow).
+> $f(n_0x),0\lt n_0\lt 1$: the graph will be stretched horizontally (causing it to visually widen).
+
+`Graphing Multiple Transformations`
+> When graphing multiple transformations, order matters. Work form the **inside out**, starting with transformations closest to $x$, and working your way outward.
+
+`Even and Odd Functions`
+> A function $f$ is **even** if, for every number $x$ in its domain, the number $-x$ is also in the domain AND $f(x)=f(-x)$ (mirrored about the y-axis).
+> A function $f$ is **even** if, for every number $x$ in its domain, the number $-x$ is also in the domain AND $f(-x)=-f(x)$ (mirrored about the origin).
 
 # 3.1 Quadratic Functions and Models
 
@@ -338,3 +405,23 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 
 `Decibel Scale`
 > $B = 10log\left(\frac{I}{I_0}\right)$ where $B$ is the deicbel level ($dB$), $I$ is the intensity, and $I_0$ is $10^{-12} \frac{W}{m^2}$ (watts per square meter) at a frequency of $1000 Hz$ (hertz).
+
+# 10.2 Systems of Linear Equations in Several Variables
+
+`Solving Systems of Equations`
+> 1. **Graphing**: a system of equations can be solved by graphing all equations, although this method is not incredibly accurate when done by hand.
+> 2. **Elimination Method**: Take the following system of equations: $2x+y=5$ and $x-3y=-1$. To solve for $y$, we can multiple our second equation by $-2$, then combine the two equations, giving us $7y=7$, thus $y=1$. Then, you can plug that number into the first equation to get $x$.
+> 3. **Gaussian Elimination**: The goal here is to write the system in triangular form, which then makes it incredibly easy to solve. We have three tools to help us do so:
+>    1. You can interchange the position of any two equations.
+>    2. You can multiply any equation by a nonzero constant.
+>    3. You can add a nonzero multiple of one equation to another.
+>    4. An equivalent equation $R_m$ can be created by adding $R_m$ to some other equation $R_n$ (in the same system) multiplied by a constant $c$.
+
+# 10.7 Partial Fractions
+
+`Partial Fraction Decomposition`
+> To decompose a rational expression into a sum of multiple partial fractions, do the following:
+> - **Case 1**: If the denominator is a product of distinct linear factors $(a_1x+b_1)(a_2x+b_2)...(a_nx+b_n)$, then the rational expression will take the form $\frac{A_1}{a_1x+b_1}+\frac{A_2}{a_2x+b_2}+...+\frac{A_n}{a_nx+b_n}$. To solve, do the following:
+>    1. ...
+> - **Case 2**: If the denominator a linear factor with a multiplicity greater than 1, then the rational expression will take the form $\frac{A_1}{ax+b} + \frac{A_2}{(ax+b)^2}+...+\frac{A_k}{(ax+b)^k}$
+> - **Case 5**: If the denominator contains any prime factors (polynomials that cannot be factored further), then the rational expression will take the form $\frac{Bx+C}{x^2+bx+c}$; for the rest, use the previous cases.
