@@ -72,7 +72,7 @@
 
 `Review`
 > - $i$ is defined as $\sqrt{-1}$.
-> - $i^2=-1; i^3=-i; i^4 = 1; i^n = i^{n \bmod 4}$
+> - $i^2=-1; i^3=-i; i^4 = 1; i^n = i^{n\\; mod\\; 4}$ <!-- KaTeX uses \;, but GFM uses MathJax, which seems to require \\;. This may be a result of the markdown pre-parsing the unescaped backslash, although it seems to only effect single-character sequences. -->
 > - The complex number system is the set of all numbers of the form $a+bi$ where $a$ and $b$ are real numbers.
 > - Addition, subtraction, multiplcation, and division all follow the same rules as a binomial. Just keep in mind the rules of $i^n$.
 
