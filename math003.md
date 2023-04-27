@@ -60,7 +60,7 @@
 `Rationalizing the Denominator Part 2`
 > If the denominator is in the form $A+B\sqrt{C}$, we can rationalize it by multiplying both the numerator and denominator by the **conjugate radical** $A-B\sqrt{C}$.
 
-# 1.5 Equations <!-- 66.67 -->
+# 1.5 Equations <!-- 95.80% -->
 
 `Solving Quadratics`
 > - **Quadratic Form**: $ax^2+bx+c$
@@ -85,7 +85,7 @@
 >   > 1. $a\left(x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2\right) = -c + \frac{b^2}{4a^2} \cdot a$
 >   > 1. $a\left(x + \frac{b}{2a}\right)^2 = -c + \frac{b^2}{4a}$
 
-# 1.6 Complex numbers <!-- 80.00% -->
+# 1.6 Complex numbers <!-- 100.00% -->
 
 `Review`
 > - $i$ is defined as $\sqrt{-1}$.
@@ -165,7 +165,7 @@
 > - If $l_1\parallel l_2$, then $m_1=m_2$
 > - If $l_1\perp l_2$, then $m_1=-\frac{1}{m_2}$
 
-# 2.1 Functions <!-- 41.46% -->
+# 2.1 Functions <!-- 100.00% -->
 
 A **function** is a rule that assigns to each element $x$ in a set $A$ extactly one element $f(x)$ in a set $B$. When pronouncing a function, for example $f(x)=2x+1$ would be pronounced `f of x equals two x plus 1`. The domain of $f(x)$, also known as the *independent variables*, is written as $D_f$, and is the set of all permissible values for $x$. The range of $f(x)$, also known as the *dependent variables*, is written as $R_f$, and is the set of all possible values of $f(x)$.
 
@@ -344,7 +344,7 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 >     1. **X-Intercept(s)**: Find the X-intercept(s) by finding the zeros of the numerator.
 >     2. **Y-Intercept**: Find the Y-intercept by setting $x = 0$.
 > 3. **Holes**: Any factor $(x - r)$ that is cancelled from the numerator and denominator will have a hole at $x = r$.
-> 4. **Vertical Asymptotes**: Set the denominator equal to$0$and solve. Each solution $s$ will have a vertical asymptote at $x = s$. Test values on each side of the asymptote to determine the graph's behavior.
+> 4. **Vertical Asymptotes**: Set the denominator equal to $0$ and solve. Each solution $s$ will have a vertical asymptote at $x = s$. Test values on each side of the asymptote to determine the graph's behavior.
 > 5. **Horizontal or Slant Asmyptotes**
 >     1. If the degree of the numerator is less than the degree of the denominator, there is a horizontal asymptote at $y = 0$.
 >     2. If the degree of the numerator is equal to the degree of the denominator, there is a horizontal asymptote at $y = \frac{a}{b}$ where $a$ is the leading coefficient of the highest term in the numerator, and $b$ is the leading coefficient of the highest term in the denominator.
@@ -475,18 +475,17 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 >    3. You can add a nonzero multiple of one equation to another.
 >    4. An equivalent equation $R_m$ can be created by adding $R_m$ to some other equation $R_n$ (in the same system) multiplied by a constant $c$.
 
-# 10.7 Partial Fractions <!-- NOT STARTED -->
+# 10.7 Partial Fractions <!-- 50.00% -->
 
 `Partial Fraction Decomposition`
-> To decompose a rational expression into a sum of multiple partial fractions, do the following:
-> - **Case 1**: If the denominator is a product of distinct linear factors $(a_1x+b_1)(a_2x+b_2)...(a_nx+b_n)$, then the rational expression will take the form $\frac{A_1}{a_1x+b_1}+\frac{A_2}{a_2x+b_2}+...+\frac{A_n}{a_nx+b_n}$. Solving these is too complicated to explain through text, so here is the process required to decompose $\frac{-3x-23}{x^2-x-12}$:
->    1. Factor the expression and set equal to the partial fractions with unknowns: $\frac{-3x-23}{(x-4)(x+3)}=\frac{A}{x-4}+\frac{B}{x+3}$
->    1. Multiply by the denominator: $-3x-23=A(x+3)+B(x-4)$
->    1. Distribute: $-3x-23=Ax+3A+Bx-4B$
->    1. Combine like terms (remember, $A$ and $B$ are constants): $-3x-23=(A+B)x+(3A-4B)$
->    1. Find an equivalency for $A$ and $B$ equal to some constant. In this case, we know that $-3$ (the coefficient of $x$) is equal to $(A+B)$ (also the coefficient of $x$). So, $A+B=-3$. We also know that $-23$ is equal to $(3A-4B)$. We now have a system of equations, meaning we can solve for $A$ and $B$, then plug them into our partial fractions ($\frac{A}{x-4}+\frac{B}{x+3}$) to get the final result: $\frac{-5}{x-4}+\frac{2}{x+3}$
-> - **Case 2**: If the denominator is a linear factor with a multiplicity greater than 1, then the rational expression will take the form $\frac{A_1}{ax+b} + \frac{A_2}{(ax+b)^2}+...+\frac{A_k}{(ax+b)^k}$
+> The method of decomposition depends on the denominator of the rational polynomial.
+> - **Case 1**
+> - **Case 1**: If the denominator is a product of distinct linear factors $(a_1x+b_1)(a_2x+b_2)...(a_nx+b_n)$, then the rational expression will take the form $\frac{A_1}{a_1x+b_1}+\frac{A_2}{a_2x+b_2}+...+\frac{A_n}{a_nx+b_n}$ where $A$ is some constant (yet unknown) and $ax+b$ is each linear factor in the denominator. Then solve for all numbers $A$.
+> - **Case 2**: If the denominator is a linear factor with a multiplicity greater than 1, then the rational expression will take the form $\frac{A_1}{a_1x+b_1} + \frac{A_2}{(a_2x+b_2)^2}+...+\frac{A_n}{(a_nx+b_n)^n}$. Then solve for all numbers $A$.
+> - **Case 3-4**: If an
 > - **Case 5**: If the denominator contains any prime factors (polynomials that cannot be factored further), then the rational expression will take the form $\frac{Bx+C}{x^2+bx+c}$; for the rest, use the previous cases.
+
+
 
 # 10.8 Systems of Nonlinear Equations <!-- NOT STARTED -->
 > Essentially the same as systems of linear equations.
@@ -502,25 +501,136 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 
 $\frac{-12\pm \sqrt{12^2-4(1)(37)}}{2(1)}=\{-6+i,-6-i\}$
 
-# 11.1 Parabolas <!-- NOT STARTED -->
+# 11.1 Parabolas <!-- 25.00% -->
 
 `True Definition of a Parabola`
-> A parabola is the set of all points in the plane that are equidistant from a given point, called the **focus**, and a given line, called the **directrix**. The **focal diameter** is twice the distance of a line perpendicular to the axis of the graph that goes from the focus to one side of the graph.
-> ![](MATH003_11_1_0.PNG)
+> A parabola is the set of all points in the plane that are equidistant from a given point, called the **focus**, and a given line, called the **directrix**. The **focal diameter** is twice the distance of a line perpendicular to the axis of the graph that goes from the focus to one side of the graph. For a visual example, see [Conic Sections: Parabolas](https://www.desmos.com/calculator/bhrvgolv9h).
 
 `Parts of Vertical a Parabola`
 > Given a parabola on the vertical axis in the form $x^2=4py$, the following is true:
 > 1. The **focus** is at $(0, p)$
 > 1. The **direcatrix** is $y=-p$
 > 1. The **focal diameter** is $|4p|$
+> 1. If $p>0$, the graph opens upward, else downward.
 
 `Parts of Horizontal a Parabola`
 > Given a parabola on the horizontal axis in the form $y^2=4px$, the following is true:
 > 1. The **focus** is at $(p, 0)$
-> 1. The **direcatrix** is $x=-p$
+> 1. The **directrix** is $x=-p$
 > 1. The **focal diameter** is $|4p|$
+> 1. If $p>0$, the graph opens to the left, else to the right.
 
-# 11.1 Ellipses <!-- NOT STARTED -->
+# 11.1 Ellipses <!-- 100.00% -->
 
 `Definition of an Ellipse`
-> An ellipse is the set of points in a plane, the sum of whose distances from two fixed points is constant. Each fixed point is called a **focus**. The **standard form for the equation of an ellipse** whose center is at $(0,0)$ is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$. An ellipse has a **major axis** (the axis of the longer direction) and a **minor axis** (the axis of the shorter direction). If $a\gt b$, the major axis is horizontal, else vertical. The **x-intercepts** are $(\pm a,0)$ and the **y-intercepts** are $(0, \pm b)$. The **vertices** of an ellipse are the endpoints of the major and minor axis.
+> An ellipse is the set of points in a plane, the sum of whose distances from two fixed points is constant. Each fixed point is called a **focus**. The **standard form for the equation of an ellipse** whose center is at $(0,0)$ is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$. An ellipse has a **major axis** (the axis of the longer direction) and a **minor axis** (the axis of the shorter direction). If $a\gt b$, the major axis is horizontal, else vertical. The **x-intercepts** are $(\pm a,0)$ and the **y-intercepts** are $(0, \pm b)$. The **vertices** of an ellipse are the endpoints of the major and minor axes (the x- and y-intercepts). For a visual example, see [Conic Sections: Ellipses](https://www.desmos.com/calculator/hktkpxkq1e).
+
+`Parts of a Horizontal Ellipse`
+> 1. **Major axis**: Horizontal, $|2a|$
+> 1. **Minor axis**: Vertical, $|2b|$
+> 1. **Foci**: $(\pm \sqrt{a^2-b^2}, 0)$
+> 1. **Vertices**: $(\pm a, 0)$
+> 1. **Co-vertices**: $(0, \pm b)$
+> 1. **Eccentricity**: $\frac{\sqrt{a^2-b^2}}{|a|}$
+
+`Parts of a Vertical Ellipse`
+> 1. **Major axis**: Vertical, $|2b|$
+> 1. **Minor axis**: Horizontal, $|2a|$
+> 1. **Foci**: $(0, \pm \sqrt{b^2-a^2})$
+> 1. **Vertices**: $(0, \pm b)$
+> 1. **Co-vertices**: $(\pm a, 0)$
+> 1. **Eccentricity**: $\frac{\sqrt{b^2-a^2}}{|b|}$
+
+# 11.3 Hyperbolas <!-- NOT STARTED -->
+
+`Definition of a Hyperbola`
+> A hyperbola is the set of all points in a plane, the *difference* of whose distance from two fixed points is constant. These fixed points are called the **foci**. For a visual example, see [Conic Sections: Hyperbolas](https://www.desmos.com/calculator/fboqzij3uh).
+
+`Vertical Hyperbola`
+> The equation of a vertical hyperbola with the center at the origin is $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ and has the below properties:
+> 1. **Vertices**: $(\pm a,0)$
+> 1. **Transverse axis**: Horizontal, with a length of $2a$
+> 1. **Asymptotes**: $y=\pm \frac{b}{a}x$
+> 1. **Foci**: $(\pm c,0)$ where $c^2=a^2+b^2$
+
+`Horizontal Hyperbola`
+> The equation of a horizontal hyperbola with the center at the origin is $\frac{y^2}{b^2}-\frac{x^2}{a^2}=1$ and has the below properties:
+> 1. **Vertices**: $(0,\pm b)$
+> 1. **Transverse axis**: Vertical, with a length of $2b$
+> 1. **Asymptotes**: $y=\pm \frac{b}{a}x$
+> 1. **Foci**: $(0,\pm c)$ where $c^2=a^2+b^2$
+
+`Guide to Conic Sections`
+> Given an equation in the form $Ax^2+Cx^2+Dx+Ey+F=0$, we can make the following assumptions:
+> 1. If one of $\{A,C\}$ is zero, it is a parabola.
+> 1. If $A=C\ne 0$, it is either a circle, a point, or nothing.
+> 1. If $A\ne C$ and the signs of each are *the same*, it is either an ellipse, a point, or nothing.
+> 1. If $A\ne C$ and the signs of each are *opposite*, it is a hyperbola.
+
+# 11.4 Shifted Conics <!-- NOT STARTED -->
+
+`Shifted Vertical Parabolas`
+> A parabola expressed in the form $(x-h)^2=4p(y-k)$ has the below properties:
+> 1. **Vertex**: $(h,k)$
+> 1. **Directrix**: $y=k-p$
+> 1. **Focus**: $(h, p+k)$
+
+`Shifted horizontal Parabolas`
+> A parabola expressed in the form $(y-k)^2=4p(x-h)$ has the below properties:
+> 1. **Vertex**: $(h,k)$
+> 1. **Directrix**: $y=h-p$
+> 1. **Focus**: $(p+h, k)$
+
+# 12.1 Sequences and Summation Notation <!-- 100.00% -->
+
+`Sequences`
+> A sequence is a function $a$ whose **domain** is the set of all natural numbers. The terms of the sequence are the function values $a(1),a(2),a(3),...,a(n),...$
+
+`Summation Notation`
+> Summation notation is as follows (example): $\Sigma_{i=2}^{5}(i-1)$ which indicates the following sum: $i_2 + i_3 + i_4 + i_5 + i_6$, where $i-1$ is the function $i(n)=n-1$. When evaluated, this would look like: $(2-1) + (3-1) + (4-1) + (5-1) + (6-1)$
+
+# 12.2 Arithmetic Sequences <!-- 100.00% -->
+
+`Definition of an Arithmetic Sequence`
+> An arithmetic sequence is a sequence where each term is found by adding the same constant, $d$ (known as the **common difference**) to the previous term. The **nth term** of **any** arithmetic sequence is $a_n=a_1 + (n-1)d$
+
+`Useful Formulas`
+> - **Finding `d` given two terms**:
+>     - $a_n=a_1+(n-1)d$
+>     - $a_n=a_m+\left((n-m+1)-1\right)d$
+>     - $a_n-a_m=\left((n-m+1)-1\right)d$
+>     - $d=\frac{a_n-a_m}{n-m}$
+
+`Arithmetic Serieses`
+> The sum of an arithmetic sequence is called an arithmetic series which is defined as $S_n = a_1+a_2+a_3+...+a_n$, which can be generalized as the equation $S_n=\frac{n}{2}\left(a_1+a_n\right)$, or using $d$, $S_n = \frac{n}{2}\left(2a_1+\left(n-1\right)d\right)$
+
+# 12.3 Geometric Sequences <!-- 12.30% -->
+
+`Definition of a Geometric Sequence`
+> A geometric sequence is a sequence where each term is found by multiplying the previous term by the same constant $r$ (called the **common ratio**). The **nth term** of **any** geometric sequence is $a_n=a_1r^{n-1}$
+
+`Geometric Serieses`
+> The sum of a geometric sequence is called an geometric series which is defined as $S_n = a_1+a_2+a_3+...+a_n$, which can be generalized as the equation $S_n=a_1\frac{1-r^n}{1-r}$
+
+`Sums of Infinite Geometric Serieses`
+> For an infinite geometric series, if $0\lt r \lt 1$, the series **converges** toward a finite value, which is defined as $S_\infty=\frac{a_1}{1-r}$. If $r\gt 1$, the series **diverges** to $\infty$
+
+`Finding a Fraction for Repeating Decimals`
+> A fraction for some repeating decimal, for example $0.\overline{73}$, simply divide the repeating portion ($73$) by $10^k-1$ where $k$ is the number of digits, giving us $\frac{73}{99}$. If the repeating portion is preceeded by a non-repeating portion, then isolate: $3.51\overline{38}=3.51+0.00\overline{38}=3.51+\frac{38}{9999}$
+
+# 12.6 The Binomial Theorem
+
+`Binomial Theorem Version 1`
+> $(a+b)^n=\Sigma^{n}_{k=0}c_ka^{n-k}b^k$ where $c_k$ are the numbers in the nth row of Pascal's Triangle.
+
+`Factorials`
+> $n$-factorial, or $n!$, is the product of $n$ and all other integers between $n$ and 1. That is, $5!=5*4*3*2*1$
+
+`Choose Formula`
+> ${a\choose b}=\frac{a!}{b!(a-b)!}$
+
+`Values of Pascal's Triangle`
+> The values in the nth row of Pascal's Triangle are defined as $c_k={n \choose k}$
+
+`Binomial Theorem Version 2`
+> The second version of the binomial theorem which includes the formula for Pascal's Triangle: $(a+b)^n = \Sigma^{n}_{k=0}\left(\frac{n!a^{n-k}b^k}{k!(n-k)!}\right)$
