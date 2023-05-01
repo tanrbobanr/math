@@ -68,43 +68,212 @@
 > Use a Special Factoring Formula to factor the expression.
 >
 > $49z^2-56z+16$ [[solution]](#solution-013)
+
+# 1.4 Rational Expressions
+
+> ## Question 014
+> Find the domain of the expression. The answer should be in interval notation.
+>
+> $-x^4+x^3+5x$ [[solution]](#solution-014)
+
+> ## Question 015
+> Find the domain of the expression. The answer should be in interval notation.
+>
+> $\frac{\sqrt{2x}}{x+3}$ [[solution]](#solution-015)
+
+> ## Question 016
+> Simplify the expression.
+>
+> $\frac{x^2-2x-24}{x^2+5x+4}$ [[solution]](#solution-016)
+
+> ## Question 017
+> Simplify the expression.
+>
+> $\frac{16-x^2}{x^3-64}$ [[solution]](#solution-017)
+
+> ## Question 018
+> Perform the addition or subtraction and simplify.
+>
+> $\frac{6x-1}{x+1}-2$ [[solution]](#solution-018)
+
+> ## Question 019
+> Simplify the expression.
+>
+> $\frac{1-\frac{6}{y}}{\frac{5}{y}}-1$ [[solution]](#solution-019)
+
+> ## Question 020
+> Rationalize the denominator.
+>
+> $\frac{2}{2-\sqrt{5}}$ [[solution]](#solution-020)
+
+# 1.5 Equations
+
+> ## Question 021
+> Solve the equation.
+>
+> $\frac{2}{5}x-1=\frac{3}{10}x+7$ [[solution]](#solution-021)
+
+> ## Question 022
+> Solve the equation for $x$.
+>
+> $a-2\left(b-2\left(c-x\right)\right)$ [[solution]](#solution-022)
+
+> ## Question 023
+> Solve the equation for $n$. Express your answer as a set.
+>
+> $S=\frac{n(n+1)}{4}$ [[solution]](#solution-023)
+
+> ## Question 024
+> Find all real solutions of the equation. Express your answer as a set.
+>
+> $x-14\sqrt{x}+48=0$ [[solution]](#solution-024)
+
+# 1.6 Complex Numbers
+
+> ## Question 025
+> Find the real and imaginary parts of the complex number.
+>
+> $-2+9i$ [[solution]](#solution-025)
+
+> ## Question 026
+> Evaluate the product, and write the result in the form $a+bi$.
+>
+> $(5-7i)^2$ [[solution]](#solution-026)
+
+> ## Question 027
+> Evaluate the power.
+>
+> $i^1002$ [[solution]](#solution-027)
+
+> ## Question 028
+> Find all solutions of the equation. Express your answer as a set of complex number(s).
+>
+> $x^2-5x+7=0$ [[solution]](#solution-028)
+
+# 1.8 Inequalities
+
+> ## Question 029
+> Solve the linear inequality. Express the solution using interval notation.
+>
+> $8-3x\le -4$ [[solution]](#solution-029)
+
+> ## Question 030
+> Solve the nonlinear inequality. Express the solution using interval notation.
+>
+> $36x\le x^3$ [[solution]](#solution-030)
+
+> ## Question 031
+> Solve the nonlinear inequality. Express the solution using interval notation.
+>
+> $x^2+13x+40\gt 0$ [[solution]](#solution-031)
+
+> ## Question 032
+> Solve the nonlinear inequality. Express the solution using interval notation.
+>
+> $\frac{x-2}{2x+1} \lt 3$ [[solution]](#solution-032)
+
+> ## Question 033
+> Solve the absolute value. Express the solution using interval notation.
+>
+> $\left|\frac{x+2}{2}\right| \ge 3$ [[solution]](#solution-033)
 # Solutions
 
 > ## Solution 001
-> $\frac{4n^3}{m^4}$
-
+> $\frac{4n^3}{m^4}$ [[question]](#question-001
+)
 > ## Solution 002
-> $2x$
-
+> $2x$ [[question]](#question-002
+)
 > ## Solution 003
-> $6t\sqrt{2rt}+20rt^2\sqrt{2rt}$
-
+> $6t\sqrt{2rt}+20rt^2\sqrt{2rt}$ [[question]](#question-003
+)
 > ## Solution 004
-> $-\frac{1}{4}$
-
-## Solution 005
-> $49$
-
+> $-\frac{1}{4}$ [[question]](#question-004
+)
+> ## Solution 005
+> $49$ [[question]](#question-005
+)
 > ## Solution 006
-> $\frac{1}{5}$
-
+> $\frac{1}{5}$ [[question]](#question-006
+)
 > ## Solution 007
-> $\frac{1}{64}$
-
+> $\frac{1}{64}$ [[question]](#question-007
+)
 > ## Solution 008
-> $2x\sqrt[6]{x}$
-
+> $2x\sqrt[6]{x}$ [[question]](#question-008
+)
 > ## Solution 009
-> $25+81y^2-90y$
-
+> $25+81y^2-90y$ [[question]](#question-009
+)
 > ## Solution 010
-> $x^2-x$
-
+> $x^2-x$ [[question]](#question-010
+)
 > ## Solution 011
-> $\left(3x-8\right)\left(x+7\right)$
-
+> $\left(3x-8\right)\left(x+7\right)$ [[question]](#question-011
+)
 > ## Solution 012
-> $(5a+5b-1)(a+b+2)$
-
+> $(5a+5b-1)(a+b+2)$ [[question]](#question-012
+)
 > ## Solution 013
-> $\left(7z-4\right)^2$
+> $\left(7z-4\right)^2$ [[question]](#question-013
+)
+> ## Solution 014
+> $\left(-\infty,\infty\right)$ [[question]](#question-014
+)
+> ## Solution 015
+> $\left[0,\infty\right)$ [[question]](#question-015
+)
+> ## Solution 016
+> $\frac{x-6}{x+1}$ [[question]](#question-016
+)
+> ## Solution 017
+> $\frac{-4-x}{x^2+4x+16}$ [[question]](#question-017
+)
+> ## Solution 018
+> $\frac{4x-3}{x+1}$ [[question]](#question-018
+)
+> ## Solution 019
+> $\frac{y-6}{5-y}$ [[question]](#question-019
+)
+> ## Solution 020
+> $-\frac{2\left(2+\sqrt{5}\right)}{1}$ [[question]](#question-020
+)
+> ## Solution 021
+> $80$ [[question]](#question-021
+)
+> ## Solution 022
+> $\frac{a-2b+4c-3}{4}$ [[question]](#question-022
+)
+> ## Solution 023
+> $n=\left\\{\frac{-1+\sqrt{1+16S}}{2},\frac{-1-\sqrt{1+16S}}{2}\right\\}$ [[question]](#question-023
+)
+> ## Solution 024
+> $x=\left\\{36,64\right\\}$ [[question]](#question-024
+)
+> ## Solution 025
+> REAL: $-2$; IMAG: $9$ [[question]](#question-025
+)
+> ## Solution 026
+> $-24-70i$ [[question]](#question-026
+)
+> ## Solution 027
+> $-1$ [[question]](#question-027
+)
+> ## Solution 028
+> $x=\left\\{\frac{5}{2}+i\frac{\sqrt{3}}{2},\frac{5}{2}-i\frac{\sqrt{3}}{2}\right\\}$ [[question]](#question-028
+)
+> ## Solution 029
+> $\left[4,\infty \right)$ [[question]](#question-029
+)
+> ## Solution 030
+> $\left[-6,0\right]\cup \left[6,\infty \right)$ [[question]](#question-030
+)
+> ## Solution 031
+> $\left(-\infty ,-8\right)\cup \left(-5,\infty \right)$ [[question]](#question-031
+)
+> ## Solution 032
+> $\left(-\infty ,-1\right)\cup \left(-\frac{1}{2},\infty \right)$ [[question]](#question-032
+)
+> ## Solution 033
+> $\left(-\infty ,-8\right]\cup \left[4,\infty \right)$ [[question]](#question-033
+)
