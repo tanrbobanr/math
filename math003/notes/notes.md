@@ -39,10 +39,11 @@
 
 `Product / Factoring Formulas`
 > - **Difference of Squares**: $a^2 - b^2 = (a + b)(a - b)$
-> - **Difference of Cubes**: $a^3 - b^3 = (a - b)(a^2 - ab + b^2)$
-> - **Sum of Cubes**: $a^3 - b^3 = (a + b)(a^2 - ab + b^2)$
+> - **Sum of Squares**: $a^2+b^2=(a+bi)(a-bi)$
+> - **Difference of Cubes**: $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$(x)
+> - **Sum of Cubes**: $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
 > - **Square of a Sum**: $(a + b)^2 = a^2 + 2ab + b^2$
-> - **Square of a Difference**: $(a + b)^2 = a^2 + 2ab + b^2$
+<!-- > - **Square of a Difference**: $(a + b)^2 = a^2 + 2ab + b^2$ -->
 > - **Cube of a Sum**: $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$
 > - **Cube of a Difference**: $(a + b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$
 
@@ -93,7 +94,7 @@
 > - The complex number system is the set of all numbers of the form $a+bi$ where $a$ and $b$ are real numbers.
 > - Addition, subtraction, multiplcation, and division all follow the same rules as a binomial. Just keep in mind the rules of $i^n$.
 
-# 1.8 Inequalities <!-- 50.00% -->
+# 1.8 Inequalities <!-- 100.00% -->
 
 `Inquality Notation`
 > $x\circ n$ where $\circ$ is $\lt$, $\gt$, $\le$, or $\ge$.
@@ -117,7 +118,7 @@
 > 1. If in the form $|u|\lt a$, then the solution is the solution to $-a\lt u\lt a$.
 > 1. If in the form $|u|\le a$, then the solution is the solution to $-a\le u\le a$.
 
-# 1.9 The Coordinate Plane; Graphs of Equations; Circles <!-- 83.33% -->
+# 1.9 The Coordinate Plane; Graphs of Equations; Circles <!-- 100.00% -->
 
 `Distance and Midpoint Formulas`
 > - The distance between two 2-dimentional points $(x_1, y_1)$ and $(x_2, y_2)$ is $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
@@ -196,23 +197,23 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 > - **ORANGE**: $f(x)=\sqrt{x}$, the square root function.
 > - **PURPLE**: $f(x)=x^3$, the cubing function.
 > - **BLACK**: $f(x)=|x|$, the absolute value function.
-> ![Graphs of the above functions](MATH003_2_2_0.PNG)
+> ![Graphs of the above functions](assets/math003_notes_2_2_0.PNG)
 
 `Vertical Line Test`
 > In order to ensure a given graph represents a function, you can perform the **vertical line test**. If a vertical line placed at any point on the coordinate plane intercepts the graph in two locations, **it is not a function**.
 
-# 2.3 Getting Information from the Graph of a Function <!-- 53.79% -->
+# 2.3 Getting Information from the Graph of a Function <!-- 100.00% -->
 
 `Increasing and Decreasing Functions`
 > A function is **increasing** at all x-values where the corresponding y-values are increasing (from left to right). Similarly, a function is **decreasing** at all x-values where the corresponding y-values are decreasing. A function is **constant** at all x-values where the corresponding y-values remain the same. Points of transition **are not included**. For example, in the function displayed below, the function is *increasing* in the interval $(-\infty, -2)\cup (0, 3)$, *decreasing* in the interval $(-2, 0)$, and is *constant* in the interval $(3, \infty)$.
-> ![Graph of a function that has sections of increasing, decreasing, and constant behavior](MATH003_2_3_0.PNG)
+> ![Graph of a function that has sections of increasing, decreasing, and constant behavior](assets/math003_notes_2_3_0.PNG)
 
-# 2.4 Average Rate of Change of a Function <!-- 53.33 -->
+# 2.4 Average Rate of Change of a Function <!-- 100.00% -->
 
 `Average Rate of Change Formula`
 > The **average rate of change** of a function $f(x)$ between $x=a$ and $x=b$ is defined as $\frac{\Delta y}{\Delta x}$, or $\frac{f(b)-f(a)}{b-a}$.
 
-# 2.5 Linear Functions and Models <!-- 59.09% -->
+# 2.5 Linear Functions and Models <!-- 100.00% -->
 > Any function in the form $f(x)=mx+b$ is called a **linear function**.
 
 `Properties of the Slope of a Linear Function`
@@ -224,7 +225,7 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 `Linear Models`
 > When a linear function is used to model the relationship between two quantities, the **slope** of the graph of the function is the **rate of change** of one quantity in relation to another.
 
-# 2.6 Transformations of Functions <!-- 33.33% -->
+# 2.6 Transformations of Functions <!-- 100.00% -->
 
 > Any transformation made to the *outside* of the function (e.g. $f(x)+2) will modify the *outside* of the parent function, e.g. $x^2+2$. Any transformation made to the *inside* of the function (e.g. $f(2x)$) will modify the *inside* of the parent function, e.g. $(2x)^2$.
 
@@ -237,39 +238,39 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 > - $f(x-n_0)$: the graph is shifted *right* by $n_0$ units.
 
 `Reflecting`
-> -$-f(x)$: the graph is reflected *about the x-axis*.
-> -$f(-x)$: the graph is reflected *about the y-axis*.
+> - $-f(x)$: the graph is reflected *about the x-axis*.
+> - $f(-x)$: the graph is reflected *about the y-axis*.
 
 `Vertical Compressions and Stretches`
-> $n_0f(x),n_0\gt 1$: the graph will be stretched vertically (causing it to visually narrow).
-> $n_0f(x),0\lt n_0\lt 1$: the graph will be compressed vertically (causing it to visually widen).
+> - $n_0f(x),n_0\gt 1$: the graph will be stretched vertically (causing it to visually narrow).
+> - $n_0f(x),0\lt n_0\lt 1$: the graph will be compressed vertically (causing it to visually widen).
 
 `Horizontal Compressions and Stretches`
-> $f(n_0x),n_0\gt 1$: the graph will be compressed horizontally (causing it to visually narrow).
-> $f(n_0x),0\lt n_0\lt 1$: the graph will be stretched horizontally (causing it to visually widen).
+> - $f(n_0x),n_0\gt 1$: the graph will be compressed horizontally (causing it to visually narrow).
+> - $f(n_0x),0\lt n_0\lt 1$: the graph will be stretched horizontally (causing it to visually widen).
 
 `Graphing Multiple Transformations`
 > When graphing multiple transformations, order matters. Work form the **inside out**, starting with transformations closest to $x$, and working your way outward.
 
 `Even and Odd Functions`
 > A function $f$ is **even** if, for every number $x$ in its domain, the number $-x$ is also in the domain AND $f(x)=f(-x)$ (mirrored about the y-axis).
-> A function $f$ is **even** if, for every number $x$ in its domain, the number $-x$ is also in the domain AND $f(-x)=-f(x)$ (mirrored about the origin).
+> A function $f$ is **odd** if, for every number $x$ in its domain, the number $-x$ is also in the domain AND $f(-x)=-f(x)$ (mirrored about the origin).
 
-# 2.7 Combining Functions <!-- 14.06% -->
+# 2.7 Combining Functions <!-- 100.00% -->
 
 > Just like most other things in algebra, functions can be added, subtracted, multiplied, etc. A function that is made up of two other functions combined in some way have a domain that is an intersection of the domains of the original functions.
 
 `Function Composition`
 > Composing two functions is different than simply combining them. When a function $f(x)$ is composed with another function $g(x)$, you are calling $g(x)$, then using the returned value to call $f(x)$ (i.e. $f(g(x))$). Composition is symbolized as $h(x)=(f\circ g)(x)=f(g(x))$, and is pronounced `f composed with g`. The domain of a composite function is as follows: $D_h = D_g \cap D_{f \circ g}$
 
-# 2.8 One-to-One Functions and their Inverses <!-- 51.90% -->
+# 2.8 One-to-One Functions and their Inverses <!-- 100.00% -->
 
 > If $(f\circ g)(x)=(g\circ f)(x)=x$, then the two functions are inverses. Inverse functions are mirrored about $y=x$. Not all functions have inverses, and we can find whether or not a given function has an inverse by performing the **horizontal line test**, whereby you check that a horizontal line placed anywhere on the coordinate plane will not intercept the graph in more than one spot. If the test passes, then the graphed function has an inverse. An inverse function of $f(x)$ is written as $f^{-1}(x)$. A function that has an inverse is called a **one-to-one function**, because each distinct input has a distinct output.
 
 `Finding Inverses`
 > To find a function's inverse, simply flip the $x$ and $y$ variables (i.e. $x=f(y)$), and then reformat to get $y$ all by itself.
 
-# 3.1 Quadratic Functions and Models <!-- 27.54% -->
+# 3.1 Quadratic Functions and Models <!-- 65.20% -->
 
 `Quadratic Functions`
 > - **Form**: $f(x) = ax^2 + bx + c$
@@ -304,7 +305,7 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 `Intermediate Value Theorem for Polynomials`
 > Suppose $P(x)$ is a polynomial function and $P(a)$ and $P(b)$ have opposite signs, then there exists at least one value $c$ between $a$ and $b$ where $P(c) = 0$.
 
-# 3.3 Dividing Polynomials <!-- NOT STARTED -->
+# 3.3 Dividing Polynomials <!-- 96.30% -->
 
 `Polynomial Long Division`
 > Polynomial long division is similar to normal long division, except that you only check the first term of the divisor, then when back multiplying, you multiply by the entire divisor. For example, the first step in $x^3-3x^2+2x+2 \div x^2+1$ would be dividing $x^3$ by $x^2$, adding the value ($x$ in this case) to the result, then subtracting $(x^2+1)*x$, etc.
@@ -312,7 +313,7 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 `Synthetic Division`
 > Synthetic division is simply a faster way of doing polynomial long division, so long as the divisor is in the form $(x-r)$. For more information, look up a video on [YouTube](https://youtube.com).
 
-# 3.4 Real Zeros of Polynomials <!-- 16.00% -->
+# 3.4 Real Zeros of Polynomials <!-- 32.00% -->
 
 `Rational Zero (Root) Theorem`
 > If the coefficients of the equation $a_nx^n+a_{n-1}x^{n-1}+...+a_1x+a_0=0$ are integers, and $a_n\ne 0$, and $\frac{p}{q}\ne 0$ is a rational zero in the lowest terms of the equation, then $p$ is a factor of $a_0$ and $q$ is a factor of $a_n$. Using this theorem, we can factor high-degree polynomials by knowing that at least one value in the set $\left\\{ \frac{p}{q} \\;|\\;p|a_0,q|a_n\right\\}$ is a zero (solution) to our equation.
@@ -322,7 +323,7 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 > 1. The number of positive real zeros of $P$ is either equal to the number of variations in the signs of the nonzero coefficients of $P(x)$ or that number less an even integer.
 > 1. The number of negative real zeros of $P$ is either equal to the number of variations in the signs of the nonzero coefficients of $P(-x)$ or that number less an even integer.
 
-# 3.5 Complex Zeros and the Fundamental Theorem of Algebra
+# 3.5 Complex Zeros and the Fundamental Theorem of Algebra <!-- 81.80% -->
 
 `Fundamental Theorem of Algebra 1`
 > Every polynomial of degree $n\ge 1$ has at least one zero among the complex numbers.
@@ -331,9 +332,9 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 > Every polynomial $P(x)$ of degree $n\ge 1$ can be written as a product of $n$ real and/or complex linear factors.
 
 `Fundamental Theorem of Algebra 2`
-> If $P(x)$ is a polynomial of degree $n\ge 1$, the $P(x)$ has exactly $n$ complex zeros where a zero of multiplicity $m$ is counted $m$ times.
+> If $P(x)$ is a polynomial of degree $n\ge 1$, then $P(x)$ has exactly $n$ complex zeros where a zero of multiplicity $m$ is counted $m$ times.
 
-# 3.6 Rational Functions <!-- NOT STARTED -->
+# 3.6 Rational Functions <!-- 39.50% -->
 
 > Given a rational function $f(x) = \frac{P(x)}{Q(x)}$, where $P$ and $Q$ are polynomials and we assume that $P$ and $Q$ have no common factors:
 > - The domain is all numbers where $Q \ne 0$
@@ -355,8 +356,8 @@ A **function** is a rule that assigns to each element $x$ in a set $A$ extactly 
 `Solving Polynomial Inequalities`
 > Move all variables to one side of the inequality, then find the zeros of the polynomial side. Test values between/around each zero and determine whether or not they satisfy the inequality.
 
-`Rational Inequalities`
-> Move all variables to one side of the inequality, then find the zeros and all values that make the rational polynomial undefined (i.e. when denominator = 0), and finally test values between/around each of the aforementioned and determine whether or not they satisfy the inequality.
+`Solving Rational Inequalities`
+> Rewrite as $\frac{P(x)}{Q(x)} \bigcirc 0$, then find all solutions for $P(x)=0$ and $Q(x)=0$, and finally test values between/around each of the solutions and determine whether or not they satisfy the inequality. The solutions to $P(x)=0$ will pass if $\ge$ or $\le$, else they will automatically fail. Solutions to $Q(x)=0$ are automatically failures.
 
 # 4.1 Exponential Functions <!-- 100.00% -->
 
@@ -604,7 +605,7 @@ $\frac{-12\pm \sqrt{12^2-4(1)(37)}}{2(1)}=\{-6+i,-6-i\}$
 `Arithmetic Serieses`
 > The sum of an arithmetic sequence is called an arithmetic series which is defined as $S_n = a_1+a_2+a_3+...+a_n$, which can be generalized as the equation $S_n=\frac{n}{2}\left(a_1+a_n\right)$, or using $d$, $S_n = \frac{n}{2}\left(2a_1+\left(n-1\right)d\right)$
 
-# 12.3 Geometric Sequences <!-- 12.30% -->
+# 12.3 Geometric Sequences <!-- 38.60% -->
 
 `Definition of a Geometric Sequence`
 > A geometric sequence is a sequence where each term is found by multiplying the previous term by the same constant $r$ (called the **common ratio**). The **nth term** of **any** geometric sequence is $a_n=a_1r^{n-1}$
@@ -618,7 +619,7 @@ $\frac{-12\pm \sqrt{12^2-4(1)(37)}}{2(1)}=\{-6+i,-6-i\}$
 `Finding a Fraction for Repeating Decimals`
 > A fraction for some repeating decimal, for example $0.\overline{73}$, simply divide the repeating portion ($73$) by $10^k-1$ where $k$ is the number of digits, giving us $\frac{73}{99}$. If the repeating portion is preceeded by a non-repeating portion, then isolate: $3.51\overline{38}=3.51+0.00\overline{38}=3.51+\frac{38}{9999}$
 
-# 12.6 The Binomial Theorem
+# 12.6 The Binomial Theorem <!-- 50.00% -->
 
 `Binomial Theorem Version 1`
 > $(a+b)^n=\Sigma^{n}_{k=0}c_ka^{n-k}b^k$ where $c_k$ are the numbers in the nth row of Pascal's Triangle.
