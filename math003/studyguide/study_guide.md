@@ -419,24 +419,24 @@
 > ### Question 077
 > Sketch the graph of the given polynomial function. Make sure your graph shows all intercepts and exhibits the proper end behavior.
 >
-> $âˆ’(x + 1)^2(x âˆ’ 1)^3(x âˆ’ 2)$ [[solution]](#solution-077)
+> $-(x + 1)^2(x - 1)^3(x - 2)$ [[solution]](#solution-077)
 
 > ### Question 078
 > Factor the given polynomial and use it to find the zeros.
 >
-> $x^3 + 4x^2 âˆ’ 4x âˆ’ 16$ [[solution]](#solution-078)
+> $x^3 + 4x^2 - 4x - 16$ [[solution]](#solution-078)
 
 ## 3.3 Dividing Polynomials
 
 > ### Question 079
 > Two polynomials $P$ and $D$ are given. Use either synthetic or long division to divide $P(x)$ by $D(x)$, and express the quotient $\frac{P(x)}{D(x)}$ in the form $\frac{P(x)}{D(x)}=Q(x)+\frac{R(x)}{D(x)}$
 >
-> $P(x)=2x^5 + x^3 âˆ’ 2x^2 + 4x âˆ’ 8; D(x)=x^2 âˆ’ 4x + 1$ [[solution]](#solution-079)
+> $P(x)=2x^5 + x^3 - 2x^2 + 4x - 8; D(x)=x^2 - 4x + 1$ [[solution]](#solution-079)
 
 > ### Question 080
 > Use synthetic division and the Remainder Theorem to evaluate $P(c)$
 >
-> $P(x) = 8x^3 âˆ’ 24x^2 + 10x âˆ’ 201;c = 11$ [[solution]](#solution-080)
+> $P(x) = 8x^3 - 24x^2 + 10x - 201;c = 11$ [[solution]](#solution-080)
 
 > ### Question 081
 > Find the quotient and remainder using long division.
@@ -453,12 +453,12 @@
 > ### Question 083
 > List all ***possible*** rational zeros given by the Rational Zeros Theorem.
 >
-> $Q(x)=12x^5 + 5x^3 âˆ’ 3x âˆ’ 8$ [[solution]](#solution-083)
+> $Q(x)=12x^5 + 5x^3 - 3x - 8$ [[solution]](#solution-083)
 
 > ### Question 084
 > Factor the given polynomial.
 >
-> $P(x)=x^5 âˆ’ 6x^4 âˆ’ x^3 + 34x^2 âˆ’ 12x âˆ’ 40$ [[solution]](#solution-084)
+> $P(x)=x^5 - 6x^4 - x^3 + 34x^2 - 12x - 40$ [[solution]](#solution-084)
 
 ## 3.5 Complex Zeros and Fundamental Theorem of Algebra
 

@@ -358,22 +358,22 @@ MAIN
         $y \rightarrow -\infty$ as $x \rightarrow \infty$; $y \rightarrow -\infty$ as $x \rightarrow -\infty$
     QUESTION
         Sketch the graph of the given polynomial function. Make sure your graph shows all intercepts and exhibits the proper end behavior.
-        $−(x + 1)^2(x − 1)^3(x − 2)$
+        $-(x + 1)^2(x - 1)^3(x - 2)$
         ![](/assets/math003_studyguide_3_2_0.png)
     QUESTION
         Factor the given polynomial and use it to find the zeros.
-        $x^3 + 4x^2 − 4x − 16$
+        $x^3 + 4x^2 - 4x - 16$
         FACTORED: $(x+4)(x+2)(x-2)$; ZEROS: $x=\left\{-4,-2,2\right\}$
 MAIN
     3.3
     Dividing Polynomials
     QUESTION
         Two polynomials $P$ and $D$ are given. Use either synthetic or long division to divide $P(x)$ by $D(x)$, and express the quotient $\frac{P(x)}{D(x)}$ in the form $\frac{P(x)}{D(x)}=Q(x)+\frac{R(x)}{D(x)}$
-        $P(x)=2x^5 + x^3 − 2x^2 + 4x − 8; D(x)=x^2 − 4x + 1$
+        $P(x)=2x^5 + x^3 - 2x^2 + 4x - 8; D(x)=x^2 - 4x + 1$
         $\frac{P(x)}{D(x)}=2x^3+8x^2+31x+114+\frac{429x-122}{x^2-4x+1}$
     QUESTION
         Use synthetic division and the Remainder Theorem to evaluate $P(c)$
-        $P(x) = 8x^3 − 24x^2 + 10x − 201;c = 11$
+        $P(x) = 8x^3 - 24x^2 + 10x - 201;c = 11$
         $P(11)=7653$
     QUESTION
         Find the quotient and remainder using long division.
@@ -388,11 +388,11 @@ MAIN
     Real Zeros of Polynomials
     QUESTION
         List all ***possible*** rational zeros given by the Rational Zeros Theorem.
-        $Q(x)=12x^5 + 5x^3 − 3x − 8$
+        $Q(x)=12x^5 + 5x^3 - 3x - 8$
         $\left\{1,-1,2,-2,4,-4,8,-8,\frac{1}{2},-\frac{1}{2},\frac{1}{3},-\frac{1}{3},\frac{2}{3},-\frac{2}{3},\frac{4}{3},-\frac{4}{3},\frac{8}{3},-\frac{8}{3},\frac{1}{4},-\frac{1}{4},\frac{1}{6},-\frac{1}{6},\frac{1}{12},-\frac{1}{12}\right\}$
     QUESTION
         Factor the given polynomial.
-        $P(x)=x^5 − 6x^4 − x^3 + 34x^2 − 12x − 40$
+        $P(x)=x^5 - 6x^4 - x^3 + 34x^2 - 12x - 40$
         $\left(x-2\right)^2\left(x-5\right)\left(x+2\right)\left(x+1\right)$
 MAIN
     3.5
